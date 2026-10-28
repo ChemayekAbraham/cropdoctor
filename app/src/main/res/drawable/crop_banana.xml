@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+  <path
+      android:fillColor="#E8F5E9"
+      android:pathData="M0,0h72v72h-72z"/>
+  <!-- Broad expansive paddle-shaped banana leaf -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M36,8C22,14 16,28 14,48c8,4 16,2 22,-2c6,4 14,6 22,2C56,28 50,14 36,8z"/>
+  <path
+      android:strokeColor="#C8E6C9"
+      android:strokeWidth="2"
+      android:pathData="M36,8v56"/>
+  <path
+      android:strokeColor="#81C784"
+      android:strokeWidth="1"
+      android:pathData="M36,18l-14,6M36,18l14,6M36,30l-16,8M36,30l16,8M36,42l-14,8M36,42l14,8"/>
+</vector>

@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+  <path
+      android:fillColor="#E8F5E9"
+      android:pathData="M0,0h72v72h-72z"/>
+  <!-- Trifoliate bean leaf -->
+  <!-- Top leaflet -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M36,10C30,18 28,26 36,36c8,-10 6,-18 0,-26z"/>
+  <!-- Left leaflet -->
+  <path
+      android:fillColor="#388E3C"
+      android:pathData="M32,36C22,30 14,32 12,42c10,4 18,0 20,-6z"/>
+  <!-- Right leaflet -->
+  <path
+      android:fillColor="#388E3C"
+      android:pathData="M40,36C50,30 58,32 60,42c-10,4 -18,0 -20,-6z"/>
+  <!-- Petiole -->
+  <path
+      android:strokeColor="#81C784"
+      android:strokeWidth="2"
+      android:pathData="M36,36v26"/>
+</vector>

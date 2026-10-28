@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+  <path
+      android:fillColor="#E8F5E9"
+      android:pathData="M0,0h72v72h-72z"/>
+  <!-- Broad waxy sorghum leaf with prominent white midrib -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M36,6C24,18 18,34 16,58c6,-4 14,-6 20,-8c6,2 14,4 20,8C54,34 48,18 36,6z"/>
+  <path
+      android:strokeColor="#FFFFFF"
+      android:strokeWidth="2.5"
+      android:pathData="M36,6v56"/>
+</vector>

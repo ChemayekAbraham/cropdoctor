@@ -1,0 +1,39 @@
+{
+  "model_name": "SmartCrop Doctor Leaf Disease Classifier",
+  "architecture": "MobileNetV2",
+  "version": "1.0.0",
+  "format": "TensorFlow Lite FlatBuffer",
+  "input_tensor": {
+    "name": "input_1",
+    "shape": [1, 224, 224, 3],
+    "type": "float32",
+    "color_space": "RGB",
+    "normalization": {
+      "mean": [127.5, 127.5, 127.5],
+      "std": [127.5, 127.5, 127.5],
+      "range": "[-1.0, 1.0]"
+    }
+  },
+  "output_tensor": {
+    "name": "Identity",
+    "shape": [1, 32],
+    "type": "float32",
+    "activation": "softmax",
+    "probabilities": true
+  },
+  "classes_count": 32,
+  "confidence_threshold": 0.35,
+  "uncertainty_margin_threshold": 0.12,
+  "training_framework": "TensorFlow 2.12 / Keras",
+  "supported_crops": [
+    "tomato",
+    "maize",
+    "potato",
+    "cassava",
+    "coffee",
+    "rice",
+    "pepper",
+    "groundnuts",
+    "beans"
+  ]
+}

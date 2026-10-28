@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+  <path
+      android:fillColor="#E8F5E9"
+      android:pathData="M0,0h72v72h-72z"/>
+  <!-- Linear slender upright rice blade -->
+  <path
+      android:fillColor="#43A047"
+      android:pathData="M36,6C31,20 28,38 27,62c4,-2 14,-2 18,0C44,38 41,20 36,6z"/>
+  <path
+      android:strokeColor="#C8E6C9"
+      android:strokeWidth="1.5"
+      android:pathData="M36,6v56"/>
+</vector>

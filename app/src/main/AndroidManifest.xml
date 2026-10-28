@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+
+    <application
+        android:name=".SmartCropApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_leaf"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_leaf"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartCropDoctor"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.auth.ProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.camera.CameraActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.camera.ImageReviewActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.results.DiseaseResultsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.differential.DifferentialDiagnosisActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.checklist.SymptomChecklistActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.crops.CropLibraryActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.crops.CropDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.diseases.DiseaseLibraryActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.diseases.DiseaseDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.history.DiagnosisHistoryActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.history.HistoryDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.info.HowToUseActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.info.AboutActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+</manifest>

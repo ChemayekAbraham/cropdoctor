@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SmartCrop Doctor</string>
+    <string name="app_tagline">AI-Powered Crop Health &amp; Leaf Disease Companion</string>
+    <string name="offline_badge">Offline Ready • On-Device AI Active</string>
+    
+    <!-- Navigation & Quick Actions -->
+    <string name="action_scan_leaf">Scan a Leaf</string>
+    <string name="action_take_photo">Take Photo</string>
+    <string name="action_choose_gallery">Choose from Gallery</string>
+    <string name="action_browse_crops">Browse 12 Crops</string>
+    <string name="action_disease_library">Disease Catalogue</string>
+    <string name="action_diagnosis_history">Diagnosis History</string>
+    <string name="action_how_to_use">How to Use</string>
+    <string name="action_about">About SmartCrop Doctor</string>
+    <string name="action_compare_diseases">Compare Possible Diseases</string>
+    <string name="action_check_symptoms">Check Symptoms More Closely</string>
+    <string name="action_recommended_inspection">Recommended Follow-up Inspection</string>
+    <string name="action_save_diagnosis">Save Diagnosis</string>
+    <string name="action_scan_again">Scan Another Leaf</string>
+    <string name="action_view_crop_info">View Crop Details</string>
+    <string name="action_view_associated_diseases">View Associated Diseases</string>
+
+    <!-- Disclaimers & Safety Warnings -->
+    <string name="diagnostic_disclaimer">Notice: This diagnosis is an AI-assisted observational assessment based on leaf imagery, not a laboratory confirmation. Always inspect the whole plant and consult local agricultural extension officers before applying chemical treatments.</string>
+    <string name="pesticide_safety_warning">Pesticide Safety: Wear recommended personal protective equipment (PPE). Only use agrochemicals registered with your local authority. Strictly follow label instructions and pre-harvest intervals.</string>
+    <string name="leaf_limitation_notice">Note: Some diseases affect stems, roots, or fruits. A leaf photograph alone cannot establish a confirmed diagnosis.</string>
+    
+    <!-- Camera & Gallery -->
+    <string name="camera_guidelines">Focus on a single affected leaf in natural light. Avoid blurry or shadowy photos.</string>
+    <string name="btn_capture">Capture Leaf</string>
+    <string name="btn_retake">Retake</string>
+    <string name="btn_proceed">Analyze Leaf</string>
+    <string name="btn_cancel">Cancel</string>
+</resources>

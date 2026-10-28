@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+  <path
+      android:fillColor="#E8F5E9"
+      android:pathData="M0,0h72v72h-72z"/>
+  <!-- Lanceolate shiny pepper leaf -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M36,8C26,18 22,32 26,48c4,4 7,4 10,2c3,2 6,2 10,-2C50,32 46,18 36,8z"/>
+  <path
+      android:strokeColor="#A5D6A7"
+      android:strokeWidth="1.5"
+      android:pathData="M36,8v54"/>
+</vector>

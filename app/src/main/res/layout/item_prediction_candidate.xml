@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/surface_white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Rank Badge -->
+            <TextView
+                android:id="@+id/tvCandidateRank"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/bg_offline_pill"
+                android:gravity="center"
+                android:text="#1"
+                android:textColor="@color/primary_dark"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCandidateTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Early Blight"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCandidateCrop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tomato • Fungal"
+                    android:textColor="@color/text_tertiary"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- Score Percentage -->
+            <TextView
+                android:id="@+id/tvCandidateScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="52%"
+                android:textColor="@color/primary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Visual Score Bar -->
+        <ProgressBar
+            android:id="@+id/progressBarScore"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="10dp"
+            android:max="100"
+            android:progress="52"
+            android:progressTint="@color/primary" />
+
+        <!-- Distinguishing Feature -->
+        <TextView
+            android:id="@+id/tvDistinguishingFeature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F8FAF6"
+            android:padding="8dp"
+            android:text="Distinguishing: Concentric target-like rings in larger brown spots on lower leaves."
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+
+        <!-- Interactive Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnViewDiseaseInfo"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/surface_white"
+                android:text="Disease Info"
+                android:textAllCaps="false"
+                android:textColor="@color/primary"
+                android:textSize="12sp"
+                app:cornerRadius="8dp"
+                app:strokeColor="@color/border_light"
+                app:strokeWidth="1dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCheckSymptomsCandidate"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/surface_white"
+                android:text="Check Symptoms"
+                android:textAllCaps="false"
+                android:textColor="@color/primary"
+                android:textSize="12sp"
+                app:cornerRadius="8dp"
+                app:strokeColor="@color/primary"
+                app:strokeWidth="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

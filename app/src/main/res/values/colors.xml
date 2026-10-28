@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Agricultural Palette -->
+    <color name="primary_dark">#134E2E</color>
+    <color name="primary">#1E5631</color>
+    <color name="primary_variant">#2E7D32</color>
+    <color name="secondary">#4C9A2A</color>
+    <color name="secondary_light">#78C043</color>
+    <color name="accent_lime">#A7E063</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="background_light">#F8FAF6</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_elevated">#F1F5EB</color>
+    <color name="surface_tint">#E8F5E9</color>
+
+    <!-- Typography & Neutrals -->
+    <color name="text_primary">#1A202C</color>
+    <color name="text_secondary">#4A5568</color>
+    <color name="text_tertiary">#718096</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="border_light">#E0E7DC</color>
+
+    <!-- Status & Diagnostic Accents -->
+    <color name="status_healthy">#059669</color>
+    <color name="status_healthy_bg">#ECFDF5</color>
+    <color name="status_warning">#D97706</color>
+    <color name="status_warning_bg">#FFFBEB</color>
+    <color name="status_critical">#DC2626</color>
+    <color name="status_critical_bg">#FEF2F2</color>
+    <color name="status_info">#2563EB</color>
+    <color name="status_info_bg">#EFF6FF</color>
+    <color name="status_offline">#4B5563</color>
+    <color name="status_offline_bg">#F3F4F6</color>
+</resources>

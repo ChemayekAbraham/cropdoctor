@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+  <path
+      android:fillColor="#E8F5E9"
+      android:pathData="M0,0h72v72h-72z"/>
+  <!-- Glossy dark-green coffee leaf with undulating margin -->
+  <path
+      android:fillColor="#1B5E20"
+      android:pathData="M36,8C20,18 18,34 24,50c4,4 8,4 12,2c4,2 8,2 12,-2C54,34 52,18 36,8z"/>
+  <path
+      android:strokeColor="#A5D6A7"
+      android:strokeWidth="1.5"
+      android:pathData="M36,8v54"/>
+  <path
+      android:strokeColor="#81C784"
+      android:strokeWidth="1"
+      android:pathData="M36,20c-6,4 -10,6 -12,12M36,20c6,4 10,6 12,12M36,32c-6,4 -9,6 -10,12M36,32c6,4 9,6 10,12"/>
+</vector>

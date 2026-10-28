@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+  <path
+      android:fillColor="#E8F5E9"
+      android:pathData="M0,0h72v72h-72z"/>
+  <!-- Palmate multi-lobed cassava leaf -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M36,36C34,22 35,10 36,6c1,4 2,16 0,30z"/>
+  <path
+      android:fillColor="#388E3C"
+      android:pathData="M36,36C26,24 16,16 12,14c3,5 12,16 24,22z"/>
+  <path
+      android:fillColor="#388E3C"
+      android:pathData="M36,36C46,24 56,16 60,14c-3,5 -12,16 -24,22z"/>
+  <path
+      android:fillColor="#43A047"
+      android:pathData="M36,36C24,34 12,34 8,36c4,3 16,3 28,0z"/>
+  <path
+      android:fillColor="#43A047"
+      android:pathData="M36,36C48,34 60,34 64,36c-4,3 -16,3 -28,0z"/>
+  <!-- Petiole -->
+  <path
+      android:strokeColor="#C2185B"
+      android:strokeWidth="2"
+      android:pathData="M36,36v30"/>
+</vector>
